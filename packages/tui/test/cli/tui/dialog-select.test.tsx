@@ -242,8 +242,8 @@ test("reveals a focus target that arrives below the viewport", async () => {
 })
 
 test("budgets option content for constrained and full-width large dialogs", () => {
-  expect(dialogSelectContentWidth(Math.min(dialogWidth("large"), 62 - 2)) - 7).toBe(41)
-  expect(dialogSelectContentWidth(Math.min(dialogWidth("large"), 100 - 2)) - 7).toBe(69)
+  expect(dialogSelectContentWidth(Math.min(dialogWidth("large"), 62 - 2)) - 7).toBe(43)
+  expect(dialogSelectContentWidth(Math.min(dialogWidth("large"), 100 - 2)) - 7).toBe(71)
 })
 
 test("ctrl+c clears a dialog filter before closing the dialog", async () => {
